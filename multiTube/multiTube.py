@@ -100,5 +100,4 @@ for op in mesh.operations:
 
 mesh.set_default_patch("infinity", "patch")
 
-mesh.write(os.path.join(r"\\wsl.localhost\Ubuntu\home\finn\foam\finn-5.0\run\test_coils\system", "blockMeshDict"), debug_path="debug.vtk")
-# mesh.write(os.path.join(r"blockMeshes", "blockMeshDict"), debug_path="debug.vtk")
+mesh.write(os.path.join(r"blockMeshes", "blockMeshDict"), debug_path="debug.vtk")
