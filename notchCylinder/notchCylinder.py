@@ -1,4 +1,3 @@
-### Rings around WP
 import classy_blocks as cb
 import os
 import numpy as np
